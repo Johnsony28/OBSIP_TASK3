@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ToDoo</title>
+        <link rel="icon" href="./images/todo.png">
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body>
+		<header>
+			<div class="header-left">
+		<img src="./images/todo.png" draggable="false">
+		<h1><a href="index.html">To Do</a></h1>
+			</div>
+			<div class="header-right">
+				<ul>
+					<li><a href="docs.html">Docs</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="#" id="login">Login/ Sign up</a></li>
+				</ul>
+			</div>
+		</header>
+			<label id="inputLabel" for="input">Add a Todo</label>
+		<form action="#" id="userInteraction">
+			<input type="text" id="input" placeholder="tet">
+			<button id="submitBtn">Submit</button>
+		</form>
+		<main>
+			<div class="main-left">
+			<h2>List:</h2>
+			<ul id="todoList">
+			</ul>
+			</div>
+			<div class="main-right">
+			<h2>Done:</h2>
+			<ul id="doneList">
+			</ul>
+			</div>
+		</main>
+		<script src="app.js"></script>
+	</body>
+</html>
